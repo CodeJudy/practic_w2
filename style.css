@@ -1,75 +1,80 @@
-body {
+body{
     margin: 0;
-    background-color: #f2f2f2;
-    font-weight: 400;
-}
-#root {
-max-width: 1200px;
-    margin: 0 auto;
+    background-color:  #f2f2f2;
+    }
+#root{
+    max-width: 1200px;
+    margin: 0 auto;  
     
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255,255,255);
 }
-section {
+section{
     min-height: 100vh;
-    border-bottom: 1px solid #f2f2f2
+    border-bottom: 1px solid #f2f2f2;
 }
-h1 {
+h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
 }
-nav 
-{position: fixed;
+
+nav{
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: 999;
 
+    z-index: 999;
+    
     width: 100%;
     height: 60px;
 
-    background-color:teal;
+
+    background-color: #999;
 }
 
-nav ul {
-display: flex;
-justify-content: center;
-
-list-style: none;
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
 }
 
-nav ul li a {
-
-
+nav ul li a{
     padding: 5px;
 
     text-decoration: none;
-    color: red;
+    color:thistle;
     text-transform: uppercase;
 }
 
 #welcome {
     display: flex;
-    text-align: center;
     justify-content: center;
+    align-items: center;
 }
-#welcome h1 {
+#welcome h1{
     display: flex;
-    text-align: center;
     justify-content: center;
+    align-items: center;
+    
+    width:400px;
+    height: 400px;
 
-    font-weight: 900;
+    color: white;
+    font-weight: 900px;
     font-size: 40px;
     text-transform: uppercase;
-    width: 400px;
-    height: 400px;
-    background-color: black;
-    color: white;
+    text-align: center;
+
+    background-color:black;
+
     border-radius: 200px;
+
 }
-#about {
+#about{
     position: relative;
 }
-#about button.more {
+#about button.more{
     position: absolute;
     bottom: 0;
     right: 0;
+
 }
