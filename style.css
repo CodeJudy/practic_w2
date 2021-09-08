@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color:  #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
     }
 #root{
     max-width: 1200px;
@@ -13,7 +14,6 @@ section{
     border-bottom: 1px solid #f2f2f2;
 }
 h1{
-    font-family: 'Montserrat', sans-serif;
     font-weight: 100;
 }
 
