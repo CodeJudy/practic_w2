@@ -1,74 +1,76 @@
-body{
+*{
+    box-sizing: border-box;
+    padding: 0;
     margin: 0;
-    background-color:  #f2f2f2;
-    font-family: 'Montserrat', sans-serif;
-    }
+}
+
+body{
+    background-color: #f2f2f2;
+    font-family: "Monteserrat", sans-serif;
+    font-weight: 400;
+}
 #root{
-    max-width: 1200px;
-    margin: 0 auto;  
+    max-width:1200px;
+    margin: 0 auto;
     
-    background-color: rgb(255,255,255);
+    background-color:rgb(255,255,255);
 }
 section{
     min-height: 100vh;
-    border-bottom: 1px solid #f2f2f2;
+    padding: 20px;
+    border-bottom: 20px solid #001f3f;
+    
 }
 h1{
     font-weight: 100;
-}
 
+}
 nav{
     position: fixed;
     top: 0;
     left: 0;
-
-    z-index: 999;
-    
+    z-index: 9999;
+    background-color: #0074D9;
     width: 100%;
     height: 60px;
-
-
-    background-color: #999;
 }
-
 nav ul{
     display: flex;
-    justify-content: center;
     list-style: none;
-}
+    justify-content: center;
 
+}
 nav ul li a{
-    padding: 5px;
-
     text-decoration: none;
-    color:thistle;
+    color: #f2f2f2;
     text-transform: uppercase;
+    padding: 5px;
 }
-
-#welcome {
+#welcome{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FF4136;
+    
 }
 #welcome h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    width:400px;
+    width: 400px;
     height: 400px;
-
-    color: white;
-    font-weight: 900px;
+    padding: 20px;
+    
+    font-weight: 900;
     font-size: 40px;
+    color: white;
     text-transform: uppercase;
     text-align: center;
+    background-color: black;
 
-    background-color:black;
-
+    border: 20px solid white;
     border-radius: 200px;
-
-}
+} 
 #about{
     position: relative;
 }
@@ -76,5 +78,14 @@ nav ul li a{
     position: absolute;
     bottom: 0;
     right: 0;
-
+    margin: 20px;
+    
+    width: 200px;
+    height: 80px;
+    background-color: #3D9970;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border: none;
+    border-radius: 2px;
 }
